@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timer de Estudos</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Principal</title>
+    <link rel="stylesheet" href="Estilos/estiloprincipal.css">
 </head>
 <body>
     <header>
-        <h1>Timer de Estudos</h1>
+        <menu>
+            <a href="loja.html">Loja</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Principal</a>
+        </menu>
     </header>
     <main>
-        <p>Aperte o input se você já finalizou a tarefa</p>
+        <div id="explicacao">
+            <p>Adicione tarefas no timer, assim que terminado marque a checkbox para ir acumulando pontos</p>
+            <p>Os pontos podem ser trocados na loja [em desenvolvimento...]</p>
+            <br>
+        </div>
+    <div id="timer1">
+        <p>Timer 1: <input type="text"></p>
+        <p>Timer 2: <input type="text"></p>
+        <p>Timer 3: <input type="text"></p>
+        <p>Timer 4: <input type="text"></p>
+        <br>
         
         <p>Timer 1 <input type="checkbox"> - 25 minutos</p>
         <p>Pausa 1 <input type="checkbox"> - 5 minutos</p>
         <p>Timer 2 <input type="checkbox"> - 25 minutos</p>
-        <p>Pausa 2 <input type="checkbox"> - 5 minutos</p>
-        <p>Duolingo <input type="checkbox"> - 15 minutos</p>
+        <p>Duolingo <input type="checkbox"> - 15 minutos</p><p>Pausa 2 <input type="checkbox"> - 5 minutos</p>
         <br>
         <p>Total <input type="checkbox"> - 75 minutos / 1 hora e 15 minutos</p>
+    </div>
+    <div id="timer2">
         <br>
         <br>
         <p>Timer 3 <input type="checkbox"> - 25 minutos</p>
@@ -32,10 +47,11 @@
         <p>Total <input type="checkbox"> - 150 minutos / 2 hora e 30 minutos</p>
         <br>
         <p>Descanso <input type="checkbox"> - 60 minutos / 1 hora</p>
+    </div>
     </main>
     <footer>
-        <p>Projeto 01</p>
-        <p>Desenvolvido por <a href="#">Luis Pedro</a></p>
+        <p>Projeto 02</p>
+        <p>Desenvolvido por &copy; Luis Pedro</p>
     </footer>
 </body>
 </html>
