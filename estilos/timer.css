@@ -1,0 +1,151 @@
+/*
+                ____
+|    |    | |  | 
+|    |    | |  |____
+|    |    | |       |
+|___ |____| |   ____|
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #191716;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #ECEBE4;
+    text-align: center;
+
+    font-family: 'Passion One', cursive;
+}
+
+header > menu {
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+
+header > menu > a {
+    color: #0C0910;
+    text-decoration: none;
+
+    margin: 2px 2px;
+
+   padding: 5px;
+
+   font-size: 1.2em;
+}
+
+header > menu > a:hover {
+    color: #FF7F11;
+    border: 2px solid #FF7F11;
+    border-radius: 10px;
+}
+
+/* Adicionar estudo */
+
+main {
+    background-color: white;
+}
+
+.bloco {
+    background-color: #429EA6;
+    color: #0C0910;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+}
+
+.bloco > h3 {
+    padding-bottom: 8px;
+
+    font-size: 1.2em;
+    font-family: 'Passion One', cursive;
+}
+
+.bloco > p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Passion One', cursive;
+
+    padding-bottom: 2px;
+}
+
+/* Timers */
+
+.sessao {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.sessao > p {
+    padding-top: 8px;
+}
+
+.conclusao {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Descanso */
+
+#descanso {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+}
+
+#descanso > p {
+    padding-bottom: 10px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #FF7F11;
+    color: #ECEBE4;
+
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer > #desenvolvido > p {
+    padding-bottom: 10px;
+}
+
+footer > #contato > h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 1.1em;
+}
+
+footer > #contato > p > a {
+    text-decoration: none;
+    color: #ECEBE4;
+}
+
+footer > #contato > p > a:hover {
+    text-decoration: underline;
+    color: #ECEBE4;
+}
+
+/* Outras configurações */
+
+hr {
+    margin: 0px 300px;
+}

@@ -5,53 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principal</title>
-    <link rel="stylesheet" href="Estilos/estiloprincipal.css">
+    <link rel="stylesheet" href="estilos/timer.css">
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
         <menu>
-            <a href="loja.html">Loja</a>
-            <a href="perfil.html">Perfil</a>
-            <a href="#">Principal</a>
+            <a href="#">Timer</a>
+            <a href="sites/perfil.html">Perfil</a>
+            <a href="sites/sobrenos.html">Sobre nós</a>
+            <a href="sites/tragetoria.html">Tragetória</a>
+            <a href="#">Loja</a>
+            <a href="#" id="linhavertical">/</a>
+            <a href="#">Login</a>
+            <a href="#">Cadastre-se</a>
         </menu>
     </header>
+
+    <!-- Corpo do site -->
     <main>
-        <div id="explicacao">
-            <p>Adicione tarefas no timer, assim que terminado marque a checkbox para ir acumulando pontos</p>
-            <p>Os pontos podem ser trocados na loja [em desenvolvimento...]</p>
-            <br>
-        </div>
-    <div id="timer1">
-        <p>Timer 1: <input type="text"></p>
-        <p>Timer 2: <input type="text"></p>
-        <p>Timer 3: <input type="text"></p>
-        <p>Timer 4: <input type="text"></p>
-        <br>
-        
-        <p>Timer 1 <input type="checkbox"> - 25 minutos</p>
-        <p>Pausa 1 <input type="checkbox"> - 5 minutos</p>
-        <p>Timer 2 <input type="checkbox"> - 25 minutos</p>
-        <p>Duolingo <input type="checkbox"> - 15 minutos</p><p>Pausa 2 <input type="checkbox"> - 5 minutos</p>
-        <br>
-        <p>Total <input type="checkbox"> - 75 minutos / 1 hora e 15 minutos</p>
-    </div>
-    <div id="timer2">
-        <br>
-        <br>
-        <p>Timer 3 <input type="checkbox"> - 25 minutos</p>
-        <p>Pausa 3 <input type="checkbox"> - 5 minutos</p>
-        <p>Timer 4 <input type="checkbox"> - 25 minutos</p>
-        <p>Pausa 4 <input type="checkbox"> - 5 minutos</p>
-        <p>Duolingo <input type="checkbox"> - 15 minutos</p>
-        <br>
-        <p>Total <input type="checkbox"> - 150 minutos / 2 hora e 30 minutos</p>
-        <br>
-        <p>Descanso <input type="checkbox"> - 60 minutos / 1 hora</p>
-    </div>
-    </main>
+            <!-- Adicionar estudo -->
+            <div class="bloco">
+                <h3>Adicione aqui suas tarefas</h3>
+                <p>Timer 01: <input type="text"></p>
+                <p>Timer 02: <input type="text"></p>
+                <p>Timer 03: <input type="text"></p>
+                <p>Timer 04: <input type="text"></p>
+            </div>
+
+            <!-- Timer 01 -->
+            <div class="sessao">
+                <p>Timer 1 <input type="checkbox"> - 25 minutos</p>
+                <p>Pausa 1 <input type="checkbox"> - 5 minutos</p>
+
+                <p>Timer 2 <input type="checkbox"> - 25 minutos</p>
+                <p>Extra <input type="checkbox"> - 10 minutos</p>
+                <p>Pausa 2 <input type="checkbox"> - 5 minutos</p>
+
+                <div class="conclusao">
+                    <p>Total <input type="checkbox"> - 70 minutos / 1 hora e 10 minutos</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Timer 02 -->
+            <div class="sessao">
+                <p>Timer 3 <input type="checkbox"> - 25 minutos</p>
+                <p>Pausa 3 <input type="checkbox"> - 5 minutos</p>
+
+                <p>Timer 4 <input type="checkbox"> - 25 minutos</p>
+                <p>Extra <input type="checkbox"> - 10 minutos</p>
+                <p>Pausa 4 <input type="checkbox"> - 5 minutos</p>
+
+                <div class="conclusao">
+                    <p>Total <input type="checkbox"> - 140 minutos / 2 hora e 30 minutos</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div id="descanso">
+                <p>Descanso <input type="checkbox"> - 60 / 1hora</p>
+
+                <p>Horas estudadas: <input type="number"></p>
+            </div>
+        </main>
+
+    <!-- Rodapé -->
     <footer>
-        <p>Projeto 02</p>
-        <p>Desenvolvido por &copy; Luis Pedro</p>
+
+        <div id="desenvolvido">
+            <p>Desenvolvido por &copy; Luis Pedro do Carmo Costa</p>
+            <p>3ª versão</p>
+        </div>
+
+        <hr>
+
+        <div id="contato">
+            <h3>Alguma sugestão? Mande um gmail para gente</h3>
+            <p>Gmail: <a href="mailto:luispedroccosta@gmail.com">luispedroccosta@gmail.com</a></p>
+        </div>
     </footer>
 </body>
 </html>

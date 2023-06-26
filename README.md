@@ -1,2 +1,2 @@
 # projeto-timer
- Projeto de um tierlist para auxiliar nos estudos
+ Projeto de um to do list para auxiliar nos estudos

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #0C0910;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #ECEBE4;
+    text-align: center;
+
+    font-family: 'Passion One', cursive;
+}
+
+header > menu {
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+
+header > menu > a {
+    color: #0C0910;
+    text-decoration: none;
+
+    margin: 2px 2px;
+
+   padding: 5px;
+
+   font-size: 1.2em;
+}
+
+header > menu > a:hover {
+    color: #FF7F11;
+    border: 2px solid #FF7F11;
+    border-radius: 10px;
+}
+
+/* Outras configurações */
+
+hr {
+    margin: 0px 300px;
+}
+
+h1 { /* Apagar esse h1 na 4ª versão*/
+    color: #ECEBE4;
+    padding-top: 10px;
+    text-align: center;
+}
